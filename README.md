@@ -1,3 +1,15 @@
+To view my project go this webpage using Google Chrome: http://agrygo.github.io/frontend-nanodegree-mobile-portfolio/index.html
+    1. Click on the Cam's Pizzeria link to get to the pizza page.
+    2. Open Chrome Developer Tools by right-clicking anywhere on the page and choosing "Inspect".
+    3. Click on the Console tab to see the comments logged by the page regarding time to generate items.
+    4. Scroll up and down on the page to report time to generate last 10 frames.
+    5. Under "Our Pizzas!" move the slider to choose a pizza size; this will log the time to generate pizzas on load in the Console window.
+    
+Optimizations:
+ changePizzaSlices:  replace querySelectorAll with getElementsByClassName
+ reduced number of pizzas from 100 to 50 in the for loop
+    
+    
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
